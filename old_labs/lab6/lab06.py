@@ -284,7 +284,7 @@ if not input_invalid:
         print("    |    Hero " + short_name + " gets <" + stars_display + "> stars")
 
         #Q3 and 4
-        with open("save.txt","w") as f:
+        with open("save.txt", "w") as f:
             if hero_won:
                 save_msg = f"Hero {short_name} has killed a monster and gained {num_stars} stars."
             else:
